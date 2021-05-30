@@ -1,5 +1,5 @@
 CREATE TABLE Orders(
-	OrderID INT NOT NULL AUTO_INCREMENT,
+    OrderID INT NOT NULL AUTO_INCREMENT,
     CustomerID INT NOT NULL,
     OrderDate DATE NOT NULL,
     -- An order may not be shipped yet.
