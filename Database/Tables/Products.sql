@@ -1,5 +1,5 @@
 CREATE TABLE Products(
-	ProductCode VARCHAR(5) NOT NULL,
+    ProductCode VARCHAR(5) NOT NULL,
     ProductName VARCHAR(50) NOT NULL,
     ProductLineID INT NOT NULL,
     QuantityInStock INT NOT NULL,
