@@ -1,5 +1,5 @@
 CREATE TABLE Payments(
-	PaymentID INT NOT NULL AUTO_INCREMENT,
+    PaymentID INT NOT NULL AUTO_INCREMENT,
     CustomerID INT NOT NULL,
     PaymentDate DATE NOT NULL,
     TotalAmount DOUBLE NOT NULL,
