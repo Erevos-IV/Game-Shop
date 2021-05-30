@@ -1,0 +1,8 @@
+DELIMITER //
+CREATE PROCEDURE GetEmployees()
+BEGIN 
+  SELECT *
+  FROM employees
+  ORDER BY EmployeeID;
+END //
+DELIMITER ;
