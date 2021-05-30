@@ -11,6 +11,6 @@ CREATE TABLE Employees(
 	
     CHECK (Age >= 18 AND Age <= 60),
     
-	PRIMARY KEY(EmployeeID),
+    PRIMARY KEY(EmployeeID),
     FOREIGN KEY(StoreID) REFERENCES Stores(StoreID)
 )AUTO_INCREMENT= 100 ENGINE = InnoDB;
